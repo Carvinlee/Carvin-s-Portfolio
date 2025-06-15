@@ -323,7 +323,7 @@ body {
 .about-info__pic {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    display: block;
 }
 
 @media (max-width: 768px) {
@@ -332,6 +332,7 @@ body {
     }
     .about-info__pic {
         max-width: 80%;
+        border: 2px solid #f0f0f0; /* Visual confirmation */
     }
 }
 main {
