@@ -4028,6 +4028,12 @@ img.u-pull-left {
         padding : 0 var(--vspace-1) var(--vspace-0_25);
     }
 }
+.about-info__pic {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* optional styling */
+}
 
 
 
